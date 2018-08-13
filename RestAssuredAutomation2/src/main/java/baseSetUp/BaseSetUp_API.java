@@ -8,6 +8,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import com.relevantcodes.extentreports.DisplayOrder;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -107,8 +108,7 @@ public class BaseSetUp_API {
 	    {
 	
 		 String log4jConfigPath=System.getProperty("user.dir")+"\\"+ "log4j.properties";
-	     PropertyConfigurator.configure(log4jConfigPath);       
-	        //XMLtestCaseName=testContext.getName();      
+	     PropertyConfigurator.configure(log4jConfigPath);          
 	        try
 	        {	            
 	                System.out.println("Inside Before Test class of BASE CLASS: FIREFOX");

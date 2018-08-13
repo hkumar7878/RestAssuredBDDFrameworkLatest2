@@ -20,23 +20,23 @@
       <![CDATA[Verified the status code successfully200.0]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="3844" started-at="2018-08-12T09:25:14Z" finished-at="2018-08-12T09:25:17Z">
+  <suite name="Suite" duration-ms="4609" started-at="2018-08-12T12:39:11Z" finished-at="2018-08-12T12:39:16Z">
     <groups>
     </groups>
-    <test name="API GET Test" duration-ms="3844" started-at="2018-08-12T09:25:14Z" finished-at="2018-08-12T09:25:17Z">
+    <test name="API GET Test" duration-ms="4609" started-at="2018-08-12T12:39:11Z" finished-at="2018-08-12T12:39:16Z">
       <class name="getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities">
-        <test-method status="PASS" signature="onBeforeTest(org.testng.ITestContext)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="onBeforeTest" is-config="true" duration-ms="167" started-at="2018-08-12T09:25:14Z" finished-at="2018-08-12T09:25:14Z">
+        <test-method status="PASS" signature="onBeforeTest(org.testng.ITestContext)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="onBeforeTest" is-config="true" duration-ms="181" started-at="2018-08-12T12:39:11Z" finished-at="2018-08-12T12:39:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5baaae4c]]>
+                <![CDATA[org.testng.TestRunner@5a865416]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBeforeTest -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="getMethodName" is-config="true" duration-ms="28" started-at="2018-08-12T09:25:14Z" finished-at="2018-08-12T09:25:14Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="getMethodName" is-config="true" duration-ms="40" started-at="2018-08-12T12:39:12Z" finished-at="2018-08-12T12:39:12Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="TestWeatherAPIWithDataProvider" duration-ms="1765" started-at="2018-08-12T09:25:14Z" data-provider="allCitiesData" finished-at="2018-08-12T09:25:16Z">
+        <test-method status="PASS" signature="TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="TestWeatherAPIWithDataProvider" duration-ms="1911" started-at="2018-08-12T12:39:12Z" data-provider="allCitiesData" finished-at="2018-08-12T12:39:14Z">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[Failed]]>
+                <![CDATA[Passed]]>
               </value>
             </param>
           </params>
@@ -89,18 +89,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestWeatherAPIWithDataProvider -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="afterEachTest" is-config="true" duration-ms="324" started-at="2018-08-12T09:25:16Z" finished-at="2018-08-12T09:25:16Z">
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="afterEachTest" is-config="true" duration-ms="313" started-at="2018-08-12T12:39:14Z" finished-at="2018-08-12T12:39:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestWeatherAPIWithDataProvider status=SUCCESS method=TC_03_TestWeatherAPIWithDataProvider_Cities.TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5] output=Test case name is TC_01_Verify Chandigarh City Info]]]>
+                <![CDATA[[TestResult name=TestWeatherAPIWithDataProvider status=SUCCESS method=TC_03_TestWeatherAPIWithDataProvider_Cities.TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb] output=Test case name is TC_01_Verify Chandigarh City Info]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="getMethodName" is-config="true" duration-ms="16" started-at="2018-08-12T09:25:16Z" finished-at="2018-08-12T09:25:16Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="getMethodName" is-config="true" duration-ms="26" started-at="2018-08-12T12:39:14Z" finished-at="2018-08-12T12:39:14Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="TestWeatherAPIWithDataProvider" duration-ms="454" started-at="2018-08-12T09:25:16Z" data-provider="allCitiesData" finished-at="2018-08-12T09:25:17Z">
+        <test-method status="PASS" signature="TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="TestWeatherAPIWithDataProvider" duration-ms="678" started-at="2018-08-12T12:39:14Z" data-provider="allCitiesData" finished-at="2018-08-12T12:39:15Z">
           <params>
             <param index="0">
               <value>
@@ -140,7 +140,7 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[Failed]]>
+                <![CDATA[Passed]]>
               </value>
             </param>
           </params>
@@ -153,18 +153,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestWeatherAPIWithDataProvider -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="afterEachTest" is-config="true" duration-ms="81" started-at="2018-08-12T09:25:17Z" finished-at="2018-08-12T09:25:17Z">
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="afterEachTest" is-config="true" duration-ms="93" started-at="2018-08-12T12:39:15Z" finished-at="2018-08-12T12:39:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestWeatherAPIWithDataProvider status=SUCCESS method=TC_03_TestWeatherAPIWithDataProvider_Cities.TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5] output=Test case name is TC_02_Verify Delhi City Info]]]>
+                <![CDATA[[TestResult name=TestWeatherAPIWithDataProvider status=SUCCESS method=TC_03_TestWeatherAPIWithDataProvider_Cities.TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb] output=Test case name is TC_02_Verify Delhi City Info]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="getMethodName" is-config="true" duration-ms="47" started-at="2018-08-12T09:25:17Z" finished-at="2018-08-12T09:25:17Z">
+        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="getMethodName" is-config="true" duration-ms="33" started-at="2018-08-12T12:39:15Z" finished-at="2018-08-12T12:39:15Z">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="TestWeatherAPIWithDataProvider" duration-ms="460" started-at="2018-08-12T09:25:17Z" data-provider="allCitiesData" finished-at="2018-08-12T09:25:17Z">
+        <test-method status="PASS" signature="TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="TestWeatherAPIWithDataProvider" duration-ms="688" started-at="2018-08-12T12:39:15Z" data-provider="allCitiesData" finished-at="2018-08-12T12:39:16Z">
           <params>
             <param index="0">
               <value>
@@ -204,7 +204,7 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[Failed]]>
+                <![CDATA[Passed]]>
               </value>
             </param>
           </params>
@@ -217,11 +217,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestWeatherAPIWithDataProvider -->
-        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5]" name="afterEachTest" is-config="true" duration-ms="47" started-at="2018-08-12T09:25:17Z" finished-at="2018-08-12T09:25:17Z">
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb]" name="afterEachTest" is-config="true" duration-ms="84" started-at="2018-08-12T12:39:16Z" finished-at="2018-08-12T12:39:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestWeatherAPIWithDataProvider status=SUCCESS method=TC_03_TestWeatherAPIWithDataProvider_Cities.TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@10bdf5e5] output=Test case name is TC_03_Verify Noid City Info]]]>
+                <![CDATA[[TestResult name=TestWeatherAPIWithDataProvider status=SUCCESS method=TC_03_TestWeatherAPIWithDataProvider_Cities.TestWeatherAPIWithDataProvider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities@148080bb] output=Test case name is TC_03_Verify Noid City Info]]]>
               </value>
             </param>
           </params>

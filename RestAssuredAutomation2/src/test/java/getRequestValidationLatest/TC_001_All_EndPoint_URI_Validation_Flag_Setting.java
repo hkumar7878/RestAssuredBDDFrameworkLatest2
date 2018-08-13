@@ -18,7 +18,7 @@ import utilLibrary.DataProviderRepository;
 import utilLibrary.ExcelReader;
 import utilLibrary.SuiteUtility;
 
-public class TC_001_All_EndPoint_URI_Validation extends BaseSetUp_API{
+public class TC_001_All_EndPoint_URI_Validation_Flag_Setting extends BaseSetUp_API{
 	String tcDesc=null;
 	String TestCaseName=null;
 	String methodName=null;
@@ -30,7 +30,7 @@ public class TC_001_All_EndPoint_URI_Validation extends BaseSetUp_API{
 	String methodName1;
 	static int i=0;
 	
-	public TC_001_All_EndPoint_URI_Validation() throws IOException {
+	public TC_001_All_EndPoint_URI_Validation_Flag_Setting() throws IOException {
 		super();
 	
 	}
