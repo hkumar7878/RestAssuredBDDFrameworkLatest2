@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="API GET Test(failed)">
     <classes>
-      <class name="getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities">
+      <class name="getRequestValidationLatest.TC_04_TestWeatherAPIWithDataProvider_Cities_With_Extent_Manager">
         <methods>
           <include name="afterEachTest"/>
-          <include name="getMethodName"/>
           <include name="TestWeatherAPIWithDataProvider" invocation-numbers="0 1 2"/>
-          <include name="onBeforeTest"/>
+          <include name="getMethodName"/>
         </methods>
-      </class> <!-- getRequestValidationLatest.TC_03_TestWeatherAPIWithDataProvider_Cities -->
+      </class> <!-- getRequestValidationLatest.TC_04_TestWeatherAPIWithDataProvider_Cities_With_Extent_Manager -->
     </classes>
   </test> <!-- API GET Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

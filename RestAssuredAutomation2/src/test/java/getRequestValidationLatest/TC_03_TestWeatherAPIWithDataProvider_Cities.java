@@ -43,7 +43,7 @@ public class TC_03_TestWeatherAPIWithDataProvider_Cities extends BaseSetUp_API{
 	@BeforeMethod()
 	public void getMethodName(Method method) throws InterruptedException
 	{
-		 tcDesc="Verify response for all end points urls";
+	
 		 scrtCtntinitAllCities();
 		 TEST_SUITE_All_Cities=ExcelRd_Obj_Test_Suite_allCities;
 		 methodName1=TEST_SUITE_All_Cities.getCellData("PositiveTestCasesData", 0, ++i);
