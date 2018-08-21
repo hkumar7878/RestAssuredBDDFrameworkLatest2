@@ -57,6 +57,7 @@ public class TC_04_TestWeatherAPIWithDataProvider_Cities_With_Extent_Manager ext
 	{
 		
 		RestAssured.baseURI="http://services.groupkt.com/state/search/IND";
+		//http://services.groupkt.com/state/search/IND?text=chandigarh
 		String [] sp1=statusCode.split("\\.");
 		ValidatableResponse response = RestAssured.given().param("text", cityNm).when().get().then();
 		Reporter.log("Test case name is " + tcName, true);
