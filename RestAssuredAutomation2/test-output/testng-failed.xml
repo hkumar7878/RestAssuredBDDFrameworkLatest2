@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="API GET Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="getRequestValidationLatest.TC_04_TestWeatherAPIWithDataProvider_Cities_With_Extent_Manager">
+      <class name="getRequestValidationLatest.TC_06_Get_Single_City_Verification">
         <methods>
-          <include name="afterEachTest"/>
-          <include name="TestWeatherAPIWithDataProvider" invocation-numbers="0 1 2"/>
-          <include name="getMethodName"/>
+          <include name="testBodyVerification"/>
         </methods>
-      </class> <!-- getRequestValidationLatest.TC_04_TestWeatherAPIWithDataProvider_Cities_With_Extent_Manager -->
+      </class> <!-- getRequestValidationLatest.TC_06_Get_Single_City_Verification -->
     </classes>
-  </test> <!-- API GET Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

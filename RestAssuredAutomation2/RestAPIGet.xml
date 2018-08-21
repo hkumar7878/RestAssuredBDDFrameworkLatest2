@@ -8,7 +8,7 @@
 	</listeners>
 	<test name="API GET Test">
 		<classes>
-			<class name="getRequestValidationLatest.TC_04_TestWeatherAPIWithDataProvider_Cities_With_Extent_Manager" />
+			<class name="getRequestValidationLatest.TC_06_Get_Single_City_Verification" />
 			
 		</classes>
 	</test>
