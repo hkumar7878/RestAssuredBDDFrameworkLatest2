@@ -5,7 +5,7 @@
     <classes>
       <class name="getRequestValidationLatest.TC_06_Get_Single_City_Verification">
         <methods>
-          <include name="testBodyVerification"/>
+          <include name="testWeather"/>
         </methods>
       </class> <!-- getRequestValidationLatest.TC_06_Get_Single_City_Verification -->
     </classes>
