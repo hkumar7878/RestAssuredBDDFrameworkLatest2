@@ -17,7 +17,7 @@ public class TC_06_Get_Single_City_Verification {
 		
 		// If static import is not done then we cannot use get() method
 		
-		Response res = get("http://services.groupkt.com/state/search/IND?text=chandigarh");
+		Response res = get("http://computer-database.herokuapp.com/computers/381");
 		
 		System.out.println("Status code is " + res.getStatusCode());
 		

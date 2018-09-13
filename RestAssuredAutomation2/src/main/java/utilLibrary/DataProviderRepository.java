@@ -11,17 +11,15 @@ public class DataProviderRepository extends BaseSetUp_API{
 
 	static ExcelReader allURIfileName = null;
     static String SheetName = null;
-    static String allCitiesFilePath=System.getProperty("user.dir" + "\\Test Excel Files\\CitiesData.xlsx");
-    static String allURIfilepath=System.getProperty("user.dir" + "\\Test Excel Files\\URI_Response Validation.xlsx");
-    ExcelReader excel1=new ExcelReader(allURIfilepath);
-    ExcelReader excel2=new ExcelReader(allCitiesFilePath);
+    static String testDataFilePath=System.getProperty("user.dir" + "\\Test Excel Files\\Suite Ctrl_Test Data.xlsx");
+    ExcelReader excel1=new ExcelReader(testDataFilePath);
     
     
     
-    @DataProvider(name="allURIsData")
+    @DataProvider(name="newComputerData")
     public static Object[][] getallURIs(){
         System.out.println("Inside data provider");
-		String[][] uRIs = getExcelData1("All_URIs.xlsx", "FullURI");
+		String[][] uRIs = getExcelData1("Suite Ctrl_Test Data.xlsx", "New Comp Addition");
     	return uRIs;
     }
     
